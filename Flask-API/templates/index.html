@@ -1,0 +1,208 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>Future Data-Letes</title>
+  <!-- Icon for window -->
+  <link rel="icon" href="https://image.flaticon.com/icons/svg/1021/1021169.svg">
+  <!-- Font awesome icons -->
+    <script src="https://kit.fontawesome.com/2e362d4438.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap 4 Link -->
+  <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/lux/bootstrap.min.css" rel="stylesheet" integrity="sha384-smnSwzHqW1zKbeuSMsAM/fMQpkk7HY11LuHiwT8snL/W2QBoZtVCT4H5x1CEcJCs" crossorigin="anonymous">
+
+  
+  <!-- Link to D3 -->
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+<!-- Link to Plotly -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body >
+
+
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-primary">
+  <a class="navbar-brand mt-3" href="index.html
+"><h2 class="text-dark ml-2">OLYMPICS</h2></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarColor02">
+      <ul class="navbar-nav mr-auto"></ul>
+      <ul class="nav navbar-nav navbar-right-custom">
+      <li class="nav-item">
+        <a class="nav-link" href="./data.html">DATA</a>
+      </li>
+   
+        <a class="nav-link" href="./analysis.html">Analysis</a>
+      </li>
+    
+      <li class="nav-item">
+        <a class="nav-link" href="./machine_learning.html">Predictions</a>
+      </li>
+      </ul>
+  </div>
+</nav>
+
+
+ <!-- Image header -->
+    <div class= "container">
+      <div class="row">
+          <div class="col-md-12">  
+            <img class="col-md-12" id="photo" src="./static/assets/images/images_home/index.png"/>   
+          </div>
+      </div>
+    </div>  
+
+<hr>
+
+<div class= "container ">
+  
+  <section id="header" class="text-center">
+      <h1 class="mb-5 display-3 content">Future Data-Letes</h1>
+<!--       <h2 class="mb-5 content">subtitle here</h2> -->
+  </section>
+</div>
+
+ <!-- Project Summary -->
+
+ <div class= "container my-5">
+  
+  <sectio class="my-5">
+    <h1 class="mb-3 text-danger">Project Objectives</h1>
+   <p class="lead">1. Analyze and create visualizations using our Olympic Games dataset from 1896 to 2016 to identify the distribution of medal in USA, GDP, and by Gender.</p><br>
+    <p class="lead">2. Additionally, we were tasked with using Machine Learning techniques to predict the amount of medals top countries would obtain in the 2020 Olympics with Linear Regression, Logistic Regression, and Auto Regressive Integrated Moving Average(ARIMA) models.</p><br>
+
+
+  
+  </section>
+</div>
+
+<div class="container">
+  <hr>
+</div>
+
+
+
+<!-- Team -->
+
+<div class="container my-5 bg-danger text-light">
+  <h1 class="text-light">Team</h1>
+
+      <div class="row">
+           <div class=" d-flex justify-content-center">
+              <div class="col-sm-6 col-lg-2 mb-4">
+                <h4 class="lead my-2 text-center text-light">Sana<br>Momin</h4>
+                <!-- <p class="text-muted text-center">role here</p> -->
+                <!-- <a class="d-flex justify-content-center" href="#!"><i class="fab fa-linkedin-in"></i></a> -->
+                <a class="d-flex justify-content-center text-light" href="https://github.com/ssmomin254"><i class="fab fa-github text-light"></i></a>
+              </div>
+              <br>
+              <hr>
+              <div class="col-sm-6 col-lg-2 mb-4">
+                <h4 class="lead my-2 text-center text-light">Anggiela <br>Yupanqui</h4>
+                  <!-- <p class="text-muted text-center">role here</p> -->
+                  <!-- <a class="d-flex justify-content-center" href="#!"><i class="fab fa-linkedin-in"></i></a> -->
+                <a class="d-flex justify-content-center text-light" href="https://github.com/AnggielaRojas"><i class="fab fa-github"></i></a>
+              </div>
+              <br>
+              <hr>
+              <div class="col-sm-6 col-lg-2 mb-4">
+                <h4 class="lead my-2 text-center text-light">Maggie<br>Sun</h4>
+                  <!-- <p class="text-muted text-center">role here</p> -->
+                  <!-- <a class="d-flex justify-content-center" href="#!"><i class="fab fa-linkedin-in"></i></a> -->
+                <a class="d-flex justify-content-center text-light" href="https://github.com/maggzesun"><i class="fab fa-github"></i></a>
+              </div>
+              <br>
+              <hr>
+            <div class="col-sm-6 col-lg-2 mb-4 text-light">
+             <!-- <img class="img-thumbnail rounded-circle" src="https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairShortFlat&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Light" alt="" /> -->
+
+             <!-- <img class="img-thumbnail rounded-circle" src="https://avataaars.io/?avatarStyle=Transparent&topType=LongHairCurly&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=CollarSweater&clotheColor=Gray01&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Smile&skinColor=Brown" alt="" /> -->
+                <h4 class="lead my-2 text-center text-light">Luke<br>Fuller</h4>
+                  <!-- <p class="text-muted text-center">role here</p> -->
+                  <!-- <a class="d-flex justify-content-center" href="#!"><i class="fab fa-linkedin-in"></i></a> -->
+                  <a class="d-flex justify-content-center text-light" href="https://github.com/AtreidesArcade"><i class="fab fa-github"></i></a>
+           <hr>
+            
+            </div>
+          </div>
+        </div>
+  </div>
+      </div>
+</div>
+
+
+
+<div class="container">
+  <hr>
+</div>
+
+<!-- Team -->
+
+<div class="container mt-5">
+  <h1 class="mb-3 text-danger">The Medicine</h1>
+    <div class="row">
+        <div class=" d-flex justify-content-center">
+          <div class="col-sm-6 col-lg-6 mb-5">
+            <h3 class="lead">What went well</h3>
+              <ul>
+                
+                <li>Creating the Flask-Api, Python Visualization </li>
+                <li>Preprocessing data used for Linear Regression Machine Learning Models </li>
+              </ul>
+          </div>
+          <div class="col-sm-6 col-lg-6 mb-5">
+            <h3 class="lead">Challenges we overcame</h3>
+            <ul>
+             <!-- <li></li><br>v-->
+              <li>Web browser cache accurately displaying visualizations</li><br>
+              <li>Fitting Machine Learning models: Linear Regression, Logistic Regression, ARIMA, KNN</li>
+
+            </ul>
+            
+
+          </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- Footer -->
+<div class="container-fluid ml-5 mt-5">
+<footer>
+    <p class="text-muted">Future Data-Letes Olympics  Prediction 2022.
+     <!-- Images: <a href="https://unsplash.com/">Unsplash &</a>  <a href="https://www.fool.com/amp/features/specials/2014/01/15/does-it-pay-to-host-the-olympics.aspx">Motley Fool, </a>
+     Avatars: <a href="https://getavataaars.com/">GetAvataaars</a></p> -->
+</footer>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+<!-- Input js file  here to connect to html file -->
+ <!--------------------------> <!-------------------------->
+
+</body>
+</html>

@@ -1,0 +1,259 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>Future Data-Letes</title>
+  <!-- Icon for window -->
+  <link rel="icon" href="https://image.flaticon.com/icons/svg/1021/1021169.svg">
+  <!-- Font awesome icons -->
+    <script src="https://kit.fontawesome.com/2e362d4438.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap 4 Link -->
+  <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/lux/bootstrap.min.css" rel="stylesheet" integrity="sha384-smnSwzHqW1zKbeuSMsAM/fMQpkk7HY11LuHiwT8snL/W2QBoZtVCT4H5x1CEcJCs" crossorigin="anonymous">
+
+
+  <!-- Link to D3 -->
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+<!-- Link to Plotly -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand mt-3" href="../../index.html"><h2 class="text-dark ml-2">OLYMPICS</h2></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarColor02">
+      <ul class="navbar-nav mr-auto"></ul>
+      <ul class="nav navbar-nav navbar-right-custom">
+      <li class="nav-item">
+        <a class="nav-link" href="data.html">DATA</a>
+      </li>
+   
+      <li class="nav-item">
+        <a class="nav-link" href="analysis.html">Analysis</a>
+      </li>
+    
+      <li class="nav-item">
+        <a class="nav-link" href="machine_learning.html">Predictions</a>
+      </li>
+      </ul>
+  </div>
+</nav>
+
+
+ <!-- Image header -->
+    <div class= "container">
+      <div class="row">
+          <div class="col-md-12">  
+            <img class="col-md-12" id="photo" src="../static/assets/images/images_analysis/analysis.jpeg"/>   
+          </div>
+      </div>
+    </div>  
+
+<hr>
+
+<div class= "container">
+  
+  <section id="header" class="text-center">
+      <h1 class="mb-5 display-3 content">Analysis</h1>
+
+  </section>
+</div>
+
+
+
+
+
+<!-- Analysis -->
+    <div class = 'row col-md-12 mx-auto'>
+
+      <div class = 'container-fluid my-3'>
+        <article class="shadow">  
+          <!-- Start Analysis Chart0 -->
+              <h4 class="text-center mt-3 pt-3">Medals Timeline Analysis</h4>
+                <h4 class="small text-center mb-3">We analyzed the top countries medal count from 1896-2016</h4>
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                    </tr>
+                  </thead>
+                  <tbody>
+             <tr><td>
+                      <table class="text-center">
+                        <thead>
+                          <tr>
+                            <th colspan="2">Summer Olympics Medal Rank</th>
+                            <th></th>
+                            <th colspan="2">Winter Olympics Medal Rank</th>
+                            <th></th>
+                            <th colspan="2"></th>
+                          </tr>
+                          <tr>
+                            <th>Country</th>
+                            <th>Rank</th>
+                            <th></th>
+                            <th>Country</th>
+                            <th>Rank</th>  
+                            <th></th>
+                            <th></th>                           
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>USA</td>
+                            <td>15</td>
+                            <td rowspan="7"></td>
+                            <td>Russia</td>
+                            <td>9</td>
+                            <td rowspan="9"></td>
+                            <td rowspan="9">  
+                              <ul>
+                                <li class="text-left">
+                                In the Olympics from 1896 to 2016, the top 2 countires that won the most medals for each Olympic year were USA and Russia</li><br>
+                                <li class="text-left">USA consistently obtained around 300-400 medals or 100-300 medals during the Summer Olympics</li> <br>
+                                
+                              </ul>
+                            </td>                            
+                          </tr>
+                          <tr>
+                            <td>Russia</td>
+                            <td>7</td>
+                            <td>USA</td>
+                            <td>4</td>                            
+                          </tr>
+                          <tr>
+                            <td>Germany</td>
+                            <td>2</td>
+                            <td>Canada</td>
+                            <td>2</td>                            
+                          </tr>
+                          <tr>
+                            <td>Greece</td>
+                            <td>2</td>
+                             <td>Germany</td>
+                            <td>2</td>                           
+                          </tr>
+                          <tr>
+                            <td>France</td>
+                            <td>1</td>
+                            <td>Finland</td>
+                            <td>1</td>                           
+                          </tr>
+                          <tr>
+                            <td>Sweden</td>
+                            <td>1</td>
+                            <td>Norway</td>
+                            <td>1</td>                            
+                          </tr>
+                          <tr>
+                            <td>UK</td>
+                            <td>1</td>
+                            <td>Sweden</td>
+                            <td>1</td>                            
+                          </tr>
+                            <tr>
+                            <td colspan="2"></td>
+                            <td></td>
+                            <td>Switzerland</td>
+                            <td>1</td>                            
+                          </tr>
+                          </tr>
+                            <tr>
+                            <td colspan="2"></td>
+                            <td></td>
+                            <td>UK</td>
+                            <td>1</td>                            
+                          </tr>                          
+                        </tbody>
+                      </table>
+
+
+                </table>
+        </article>
+      </div>
+
+      <div class = 'container-fluid my-3'>
+        <article class="shadow"> 
+          <!-- Start Analysis Chart1 -->
+     
+
+      <div class = 'container-fluid my-3'>
+        <article class="shadow">  
+          <!-- Start Analysis Chart0 -->
+              <h4 class="text-center mt-3. pt-3">Medals VS GDP</h4>
+                <h4 class="small text-center mb-3">We analyzed the Relationship between GDP and Olympic Medals</h4>
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <ul>
+                          <li>There is a significant relationship between a nation’s GDP and the number of gold medals they win at the Olympics.</li>
+                        
+     
+                        </ul>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+        </article>
+      </div>
+
+
+<!--       <div class = 'container-fluid my-3'>
+        <article>   -->
+          <!-- Start Analysis Chart3 -->
+<!--               <h4 class="text-center mt-3">Medals World View - Seasons</h4>
+                <h4 class="small text-center mb-3">We analyzed all countries by Season and Year and the amount of medals they won</h4>
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <ul>
+                          <li></li>
+                          <li></li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+        </article>
+      </div> -->
+
+
+
+<!-- Footer -->
+
+<div class="container-fluid ml-5 mt-5">
+  <footer>
+    <p class="text-muted">Future Data Letes Olympics Prediction 2022.
+  </p> 
+  </footer>
+  
+</div>
+
+
+
+
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>
